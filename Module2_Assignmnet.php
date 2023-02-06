@@ -1,5 +1,5 @@
 <?php
 
-$tutionFee=33021;
-$commission=($tutionFee>=20000)? "Commission = ".(float)$tutionFee*0.25 :(($tutionFee<20000 && $tutionFee>=10000)? "Commission = ".(float)$tutionFee*0.20:(($tutionFee>= 7000 && $tutionFee<10000)? "Commission = ".(float)$tutionFee*0.15:"Data is invalid."));
+$tuitionFee=21117;
+$commission=($tuitionFee>=20000)? "For {$tuitionFee} tuition fee commission = ".$tuitionFee*0.25 :(($tuitionFee<20000 && $tuitionFee>=10000)? "For {$tuitionFee} tuition fee commission = ".$tuitionFee*0.20:(($tuitionFee>= 7000 && $tuitionFee<10000)? "For {$tuitionFee} tuition fee commission = ".$tuitionFee*0.15:"Data is invalid."));
 echo $commission;
